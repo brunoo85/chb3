@@ -1,0 +1,60 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+ }
+ 
+ :root{
+     --fonte-primaria: 'Roboto Slab', serif;
+     --fonte-secundaria: 'Bitter', serif;
+     --fonte-teste1:  'Roboto Slab', serif;
+     --fonte-teste2: 'Bitter', serif;
+ }
+
+ .cabecalho{
+     display: flex;
+     flex-direction: row;
+     /*background-color: #E5D5B5;*/
+     align-items: center;
+     justify-content: space-evenly;
+     border-bottom: 0.4px solid black;
+ }
+ 
+ .cabecalho_menu{
+     display: flex;
+     flex-direction: row;
+     font-weight: 100;
+     padding: 14px;
+ }
+ 
+ .cabecalho_menu li{
+     display: inline-block;
+     padding: 10px;
+     border-radius: 10px;
+     transition: 1s all;
+ }
+ 
+ .cabecalho_menu li:hover{
+     background: #64AAB9;
+     
+  }
+ 
+ .cabecalho_menu_link{
+     font-family: var(--fonte-primaria);
+     font-size: 20px;
+     font-weight: 400;
+     text-decoration: none;
+ }
+ .aparece{
+     display: none;
+     background-color: blueviolet;
+     padding: 10px;
+     gap:15px;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .link{
+     font-weight: bold;
+ }
