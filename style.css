@@ -55,6 +55,11 @@
      align-items: center;
  }
 
+.aparece1{
+     display: none;
+
+ }
+
  .link{
      font-weight: bold;
  }
