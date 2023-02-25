@@ -6,7 +6,7 @@
  }
 
  .cabecalho{
-    /*visibility: hidden;*/
+    visibility: hidden;
      display: flex;
      flex-direction: row;
      /*background-color: #E5D5B5;*/
