@@ -6,6 +6,8 @@ function senha1 (){
    
    if(senhaDigitada1==="grifo"){
       aparece1.style.display="block";
+   }else {
+      alert("senha incorreta");
    }
   }
 
