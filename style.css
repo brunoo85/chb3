@@ -4,16 +4,9 @@
      box-sizing: border-box;
      text-decoration: none;
  }
- 
- :root{
-     --fonte-primaria: 'Roboto Slab', serif;
-     --fonte-secundaria: 'Bitter', serif;
-     --fonte-teste1:  'Roboto Slab', serif;
-     --fonte-teste2: 'Bitter', serif;
- }
 
  .cabecalho{
-    visibility: hidden;
+    /*visibility: hidden;*/
      display: flex;
      flex-direction: row;
      /*background-color: #E5D5B5;*/
