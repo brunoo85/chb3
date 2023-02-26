@@ -75,3 +75,29 @@ font-weight: bold;
 .botao2{
     background-color: #07454B;
 }
+
+.img_cima{
+    background-color: #7ED957;
+}
+
+.text_img{
+    color: #7ED957;
+}
+
+@media (max-width: 840px){
+    .box-roma{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .box-grego{
+        flex-direction: column;
+        gap: 10px;
+        margin-left: auto;
+    }
+    .img_roma {
+        height: 50%;
+    }
+    .img_cima{
+     height: 50%;
+    }
+}
