@@ -72,6 +72,10 @@ font-weight: bold;
     display: none;
  }
 
+ .aparece4{
+    display: none;
+ }
+
 .botao2{
     background-color: #07454B;
 }
@@ -101,3 +105,4 @@ font-weight: bold;
      height: 50%;
     }
 }
+

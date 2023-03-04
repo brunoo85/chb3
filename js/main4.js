@@ -1,4 +1,4 @@
-let senhaDigitada2;
+let senhaDigitada3;
 var aparece3 = document.querySelector(".aparece2");
 
 function senha3 (){
